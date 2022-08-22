@@ -1,17 +1,37 @@
-### [Foobar](https://foobar.com)
+### [Sandpack](https://sandpack.codesandbox.io)
 
-#### Install using Git
+#### Install
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+After the [Sandpack installation and proper configuration](https://sandpack.codesandbox.io/docs/getting-started/install), you can configure Dracula Theme through _theme support_.
 
-    git clone https://github.com/dracula/foobar.git
+To use Dracula Theme, install the `@codesandbox/sandpack-themes` package; this official open source package contains all the Sandpack compatible themes.
 
-#### Install manually
+```bash
+npm install @codesandbox/sandpack-themes
+```
 
-Download using the [GitHub .zip download](https://github.com/dracula/foobar/archive/master.zip) option and unzip them.
+or
+
+```bash
+yarn add @codesandbox/sandpack-themes
+```
 
 #### Activating theme
 
-1. Do this
-2. Then that
-3. Boom! It's working
+1. Now let's import the package.
+
+```js
+import { dracula } from "@codesandbox/sandpack-themes";
+```
+
+2. And in the Sandpack instance let's reference it.
+
+```js
+<Sandpack theme={dracula} />
+```
+
+3. Boom! It's working! 🦇
+
+You can also read the [official Sandpack doc](https://sandpack.codesandbox.io/docs/getting-started/themes) on how to do this installation.
+
+There is also [this repository](https://github.com/luxonauta/dracula-themed-sandpack-example) with an example with NextJs.
