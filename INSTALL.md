@@ -8,11 +8,7 @@ To use Dracula Theme, install the `@codesandbox/sandpack-themes` package; this o
 
 ```bash
 npm install @codesandbox/sandpack-themes
-```
-
-or
-
-```bash
+# or
 yarn add @codesandbox/sandpack-themes
 ```
 
