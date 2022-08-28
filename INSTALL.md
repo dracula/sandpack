@@ -1,4 +1,4 @@
-### [Sandpack](https://sandpack.codesandbox.io)
+### [Sandpack by CodeSandbox](https://sandpack.codesandbox.io) 
 
 #### Install
 
